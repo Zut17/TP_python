@@ -1,0 +1,1 @@
+print("Meilleure note :", max(15.10, 15.04))
