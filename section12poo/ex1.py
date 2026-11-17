@@ -9,4 +9,7 @@ class Etudiant:
 
 
 if __name__ == "__main__":
-    print(Etudiant("Amina", 12.0, 15.5).moyenne())  # 14.1
+    print(Etudiant("Amina", 12.0, 15.5).moyenne())
+
+def afficher(self):
+    print(f"{self.nom} : CC = {self.note_cc}, Examen = {self.note_examen}")
