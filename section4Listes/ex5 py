@@ -1,0 +1,5 @@
+originale = [1, 2, 3]
+copie = originale.copy()
+copie.append(4)
+print(originale)
+print(copie)
